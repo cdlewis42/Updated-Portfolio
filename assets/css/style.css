@@ -2,6 +2,13 @@ body {
     background-image: url("../images/memphis-mini.png");
     font-family: 'Signika', sans-serif;
 }
+nav{
+    background-color: #f0f0f5;
+    color:#a4a4c1;
+    font-weight:bold;
+    border-bottom: 2px solid #a4a4c1;
+    border-right: 2px solid #a4a4c1;
+}
 
 h1 {
     background-color: #99ccff;
