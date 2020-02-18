@@ -1,0 +1,23 @@
+body{
+    background-image: url("../images/memphis-mini.png");
+    font-family: 'Signika', sans-serif;
+}
+h1{
+    background-color:#99ccff;
+
+}
+h3{
+    background-color:#99ccff;
+    
+}
+p{
+    font-size: 20px;
+}
+.contentWrapper{
+    background-color:white;
+    padding: 20px;
+    margin:10px;
+}
+.projectName{
+    font-size: 20px;
+}
