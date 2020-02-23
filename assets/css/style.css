@@ -68,3 +68,19 @@ img {
 .card-body{
     display:inline-block
 }
+#info{
+    float:right;
+}
+#projects{
+    float:left;
+    position:relative;
+    bottom:170px;
+    width:1090px;
+    right:60px
+}
+#aboutMe{
+    float:left;
+    position:relative;
+    right:60px;
+    bottom:170px;
+}
