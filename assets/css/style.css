@@ -90,3 +90,22 @@ img {
     right:754px;
     margin:20px
 }
+#dateCreate{
+    float:left;
+    position:relative;
+    right:185px;
+    bottom: 400px;
+    margin:20px
+}
+#clickyGame{
+    float:left;
+    position:relative;
+    right:544px;
+    margin:20px
+}
+#onionScraper{
+    float:left;
+    position:relative;
+    right:754px;
+    margin:20px
+}
