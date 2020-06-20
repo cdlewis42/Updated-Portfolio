@@ -59,11 +59,15 @@ p {
     color: #b3b3b3;
 }
 
-img {
-    width: 200px;
-    float: left;
-}
+.projectImg {
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    margin: 20px;
+    float:left;
+    display: inline-block;
 
+}
 .contentWrapper {
     color: white;
     padding: 20px;
@@ -79,18 +83,20 @@ img {
 .card{
     display:inline-block
 }
-.card:hover{
+.projectImg:hover{
     box-shadow: 10px 10px 5px orange;
 }
 .card-body{
     display:inline-block
 }
 #mePic{
+    float: left;
     margin-right: 40px;
     height: 200px;
     width: 235px;
 }
 #projects{
     background-color: black;
+    height: 500px;
 }
 
