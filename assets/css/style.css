@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/memphis-mini.png");
+    background-image: url("../images/stockspace.jpg");
     font-family: 'Signika', sans-serif;
 }
 nav{
@@ -9,15 +9,29 @@ nav{
     border-bottom: 2px solid #a4a4c1;
     border-right: 2px solid #a4a4c1;
 }
-
-h1 {
-    background-color: #99ccff;
-    color: white;
-    border-bottom: 2px solid #a4a4c1;
-    border-right: 2px solid #a4a4c1;
-
+.jumbotron{
+    padding: 40px !important;
+    background-image: url("../images/stockspace.jpg") !important;
+    background-size: auto !important;
+    color: white !important;
 }
-
+h1{
+    opacity: 1 !important;
+    animation: fade 5s linear !important;
+}
+@keyframes fade {
+    0% { opacity: 0 }
+    50% { opacity: 1 }
+  }
+.imgHolder{
+    background-image: url("../images/stockspace4.jpg");
+    opacity: 75;
+    width:100%;
+    height: 500px;
+    position: fixed;
+    background-repeat: repeat-x;
+    z-index: -1;
+}
 h3 {
     background-color: #99ccff;
     color: white;
@@ -48,9 +62,10 @@ img {
 .contentWrapper {
     background-color: #f0f0f5;
     padding: 20px;
-    margin: 10px;
+    margin-top: 40px;
     border-bottom: 2px solid #a4a4c1;
     border-right: 2px solid #a4a4c1;
+    width: 100% !important;
 
 }
 
@@ -58,53 +73,11 @@ img {
     font-size: 20px;
 }
 
-#aboutMe {
-    padding-bottom: 100px
-}
 .card{
     display:inline-block
 }
 .card-body{
     display:inline-block
 }
-#info{
-    float:right;
-}
-#projects{
-    float:left;
-    position:relative;
-    bottom:170px;
-    width:1090px;
-    right:60px
-}
-#aboutMe{
-    float:left;
-    position:relative;
-    right:60px;
-    bottom:170px;
-}
-#furkeeps{
-    float:left;
-    position:relative;
-    right:754px;
-    margin:20px
-}
-#dateCreate{
-    float:left;
-    position:relative;
-    right:185px;
-    bottom: 400px;
-    margin:20px
-}
-#clickyGame{
-    float:left;
-    position:relative;
-    right:544px;
-    margin:20px
-}
-#onionScraper{
-    float:left;
-    position:relative;
-    right:754px;
-    margin:20px
-}
+
+
