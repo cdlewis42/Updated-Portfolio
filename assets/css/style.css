@@ -1,3 +1,7 @@
+@font-face{
+    src:url("../fonts/CedarvilleCursive-Regular.ttf");
+    font-family: quote;
+}
 body {
     background-image: url("../images/stockspace.jpg");
     font-family: 'Signika', sans-serif;
@@ -35,13 +39,11 @@ h1{
     0% { opacity: 0 }
     50% { opacity: 1 }
   }
-.imgHolder{
-    background-image: url("../images/stockspace4.jpg");
-    margin-bottom: 75%;
-    opacity: 75;
+#fixedImg{
     width:100%;
-    height: 500px;
-    position: fixed;
+    height: 10%;
+    position: sticky;
+    top:10%;
     background-repeat: no-repeat;
     background-size: 100%;
     z-index: -1;
@@ -135,12 +137,10 @@ p {
     display:inline-block;
 }
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color:#262626;
     color: white;
+    padding:50px;
     text-align: center;
   }
   a{
@@ -159,4 +159,18 @@ footer{
       border: 2px solid #1a1a1a !important;
       border-radius: 25px;
 
+  }
+  #quoteContainer{
+      text-align:center;
+  }
+  #quote{
+      font-size:50px;
+      color:black;
+      font-style: italic;
+      font-family:quote;
+      position:relative;
+      bottom:60%;
+  }
+  #emptySpace{
+      padding:5%;
   }
