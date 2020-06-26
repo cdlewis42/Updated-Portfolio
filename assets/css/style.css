@@ -2,18 +2,30 @@ body {
     background-image: url("../images/stockspace.jpg");
     font-family: 'Signika', sans-serif;
 }
-a{
+.projectLink{
     margin: 10px;
     text-shadow:5px orange;
     align-self:center;
     position:relative;
     left:25%;
+    color: white !important;
+}
+.projectLink:hover{
+  color:orange !important;  
+}
+i{
+    margin: 10px;
+    color:white !important;
+}
+i:hover{
+    color:orange !important;
 }
 .jumbotron{
     padding: 5% !important;
     background-image: url("../images/stockspace.jpg") !important;
     background-size: auto !important;
     color: white !important;
+    text-align:center !important;
 }
 h1{
     opacity: 1 !important;
