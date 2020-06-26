@@ -7,7 +7,7 @@
     font-family: radiospace;
 }
 body {
-    background-image: url("../images/stockspace.jpg");
+    background-image: url("../images/spacebackground2.jpeg");
     font-family: 'Signika', sans-serif;
 }
 .projectLink{
@@ -30,7 +30,7 @@ i:hover{
 }
 .jumbotron{
     padding: 5% !important;
-    background-image: url("../images/stockspace.jpg") !important;
+    background-image: url("../images/spacebackground2.jpeg") !important;
     background-size: auto !important;
     color: white !important;
     text-align:center !important;
