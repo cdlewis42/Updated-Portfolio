@@ -2,6 +2,13 @@ body {
     background-image: url("../images/stockspace.jpg");
     font-family: 'Signika', sans-serif;
 }
+a{
+    margin: 10px;
+    text-shadow:5px orange;
+    align-self:center;
+    position:relative;
+    left:25%;
+}
 .jumbotron{
     padding: 5% !important;
     background-image: url("../images/stockspace.jpg") !important;
@@ -38,6 +45,12 @@ h4 {
     color: white;
     opacity: 1 !important;
     animation: fade 5s linear !important;
+
+
+}
+h5 {
+    color: white;
+    vertical-align: left;
 
 
 }
@@ -89,6 +102,11 @@ p {
 .card-body{
     display:inline-block
 }
+.contact{
+    line-height: 0.3em;
+    font-size: 17px;
+    vertical-align:right;
+}
 #mePic{
     float: left;
     margin-right: 40px;
@@ -99,4 +117,6 @@ p {
     background-color: black;
     height: 500px;
 }
-
+.col-md-2{
+    display:inline-block;
+}
