@@ -160,6 +160,10 @@ footer{
       border-radius: 25px;
 
   }
+  #skillsContainer:hover{
+    box-shadow: 10px 10px 5px black;
+    text-shadow: 10px 10px 5px black;
+}
   #quoteContainer{
       text-align:center;
   }
