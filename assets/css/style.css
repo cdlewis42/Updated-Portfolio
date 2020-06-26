@@ -2,6 +2,10 @@
     src:url("../fonts/CedarvilleCursive-Regular.ttf");
     font-family: quote;
 }
+@font-face{
+    src:url("../fonts/RadioSpace-zZ80.otf");
+    font-family: radiospace;
+}
 body {
     background-image: url("../images/stockspace.jpg");
     font-family: 'Signika', sans-serif;
@@ -34,6 +38,7 @@ i:hover{
 h1{
     opacity: 1 !important;
     animation: fade 5s linear !important;
+    font-family: radiospace;
 }
 @keyframes fade {
     0% { opacity: 0 }
@@ -52,6 +57,7 @@ h3 {
     color: white;
     opacity: 1 !important;
     animation: fade 5s linear !important;
+    font-family: radiospace;
 
 }
 
@@ -59,18 +65,21 @@ h4 {
     color: white;
     opacity: 1 !important;
     animation: fade 5s linear !important;
+    font-family: radiospace;
 
 
 }
 h5 {
     color: white;
     vertical-align: left;
+    font-family: radiospace;
 
 
 }
 .lead{
     opacity: 1 !important;
     animation: fade 5s linear !important;
+    font-family: radiospace;
 }
 #aboutMe{
     background-color: #262626;
