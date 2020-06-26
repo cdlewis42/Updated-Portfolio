@@ -134,3 +134,29 @@ p {
 .col-md-2{
     display:inline-block;
 }
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#262626;
+    color: white;
+    text-align: center;
+  }
+  a{
+      color: white !important;
+  }
+  #email{
+      border-right:5px #333333;
+  }
+  #skillsContainer{
+      background-color: #333333;
+      text-align: center;
+      padding: 10%;
+      margin-bottom: 25%;
+      margin-left: 5%;
+      margin-right:5%;
+      border: 2px solid #1a1a1a !important;
+      border-radius: 25px;
+
+  }
