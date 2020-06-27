@@ -46,7 +46,7 @@ h1{
   }
 #fixedImg{
     width:100%;
-    height: 10%;
+    height: 100%;
     position: sticky;
     top:10%;
     background-repeat: no-repeat;
@@ -138,8 +138,7 @@ p {
     height: 200px;
     width: 235px;
 }
-#projects{
-    background-color: black;
+.projects{
     height: 500px;
 }
 .col-md-2{
@@ -183,6 +182,10 @@ footer{
       font-family:quote;
       position:relative;
       bottom:60%;
+  }
+  #quote:hover{
+    color:white;
+    text-shadow: 10px 10px 5px black;
   }
   #emptySpace{
       padding:5%;
