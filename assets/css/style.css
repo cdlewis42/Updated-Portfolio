@@ -8,6 +8,7 @@
 }
 body {
     background-image: url("../images/spacebackground2.jpeg");
+    background-attachment: fixed;
     font-family: 'Signika', sans-serif;
 }
 .projectLink{
@@ -30,7 +31,7 @@ i:hover{
 }
 .jumbotron{
     padding: 5% !important;
-    background-image: url("../images/spacebackground2.jpeg") !important;
+    background-color:transparent !important;
     background-size: auto !important;
     color: white !important;
     text-align:center !important;
