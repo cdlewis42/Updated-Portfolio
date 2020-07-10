@@ -48,8 +48,9 @@ h1{
 #fixedImg{
     width:100%;
     height: 100%;
-    position: sticky;
+    position: absolute;
     top:0;
+    float: right;
     background-repeat: no-repeat;
     background-size: 100%;
     z-index: -1;
@@ -124,6 +125,15 @@ p {
 .projectImg:hover{
     box-shadow: 10px 10px 5px orange;
 }
+.educationWrapper{
+    background-color: #262626;
+    padding: 7%;
+    margin-bottom: 7%;
+}
+.educationWrapper:hover{
+    box-shadow: 10px 10px 5px black;
+    text-shadow: 10px 10px 5px black;
+}
 .card-body{
     display:inline-block
 }
@@ -157,11 +167,15 @@ footer{
   #email{
       border-right:5px #333333;
   }
+  #education{
+      margin-bottom: 2%;
+  }
   #skillsContainer{
       background-color: #333333;
       text-align: center;
       padding: 10%;
-      margin-bottom: 25%;
+      margin-top:3%;
+      margin-bottom: 5%;
       margin-left: 5%;
       margin-right:5%;
       border: 2px solid #1a1a1a !important;
@@ -181,7 +195,6 @@ footer{
       font-style: italic;
       font-family:quote;
       position:relative;
-      bottom:60%;
   }
   #quote:hover{
     color:white;
